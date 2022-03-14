@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bg_img {
+  background-image: url("Lion-Feuchtwanger-Rendering-Gartenplateau.jpg");
+  background-color: #fff;
+  height: 100vh;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.description {
+  min-width: 400px;
+  text-align: center;
+  padding: 25px;
+  background-color: rgba(15, 40, 60, 0.9);
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.description p {
+  font-size: 2em;
+  line-height: 1em;
+  padding-bottom: 15px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flasche {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 0.75em;
+  border: #fff;
+  color: #fff;
+  background-color: rgba(15, 40, 60, 0.9);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  background-color: transparent;
+  border: 1px solid white;
+  margin-top: 2em;
+}
+
+button:hover {
+  background: #fff;
+  color: #164a72;
+  transition: all 0.2s;
+}
